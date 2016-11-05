@@ -1,6 +1,6 @@
 package com.ymatou.uitest.util;
 
-public class TimeUtils {
+public class TimeUtil {
 
 	public static void WaitTime(int second){
 		try {

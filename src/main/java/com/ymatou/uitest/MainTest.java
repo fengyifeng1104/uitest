@@ -1,9 +1,12 @@
 package com.ymatou.uitest;
 
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import java.util.HashMap;
+import java.util.Map;
 
-import com.google.common.collect.ImmutableMap;
+import com.alibaba.fastjson.JSON;
+import com.alibaba.fastjson.JSONObject;
+import com.ymatou.uitest.biz.util.Login;
+import com.ymatou.uitest.util.FileUtil;
 
 /**
  * Hello world!
@@ -11,9 +14,26 @@ import com.google.common.collect.ImmutableMap;
  */
 public class MainTest 
 {
-    public static void main( String[] args )
-    {
-        System.out.println( "Hello World!" );
-        
-    }
+	public static void main(String[] args) {
+		Map<String, Object> map = new HashMap<String, Object>();
+		map.put("CatalogType", 0);
+		map.put("MainCategoryName", "美容个护");
+		map.put("SubCategoryName", "面部护肤");
+		map.put("ThirdCategoryName", "爽肤");
+		map.put("BrandName", "阿迪达斯");
+		
+		
+		Login.loginSellerAsDefault();
+
+
+		
+		
+		
+		
+		JSONObject aJsonObject = JSON.parseObject(FileUtil.readFile("E:\\fyf\\workspace2\\GUITest\\config\\jsonbeantpl\\AddNewProductTpl.json"));
+ 		//ProductBiz.AddNewProduct(new JSONObject(map), aJsonObject);
+		
+	}
+	
+
 }
