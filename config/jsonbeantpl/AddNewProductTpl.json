@@ -7,9 +7,9 @@
     "NoticeRisk": 1,
 	"PicUrl":"D:\\1est.jpg",
     "DeliveryType": [
-        "±£À∞",
-        "µ⁄»˝∑Ω±£À∞",
-        "π„÷›±£À∞«¯",
+        "‰øùÁ®é",
+        "Á¨¨‰∏âÊñπ‰øùÁ®é",
+        "ÂπøÂ∑û‰øùÁ®éÂå∫",
         "1111"
     ],
     "AutoSale": true,
@@ -19,18 +19,18 @@
     "LocalReturn": 1,
     "Catalogs": {
         "Property": {
-            "—’…´": [
-                "∫Ï…´",
-                "¿∂…´"
+            "È¢úËâ≤": [
+                "Á∫¢Ëâ≤",
+                "ËìùËâ≤"
             ],
-            "≥ﬂ¥Á": [
+            "Â∞∫ÂØ∏": [
                 "11",
                 "12"
             ]
         },
         "PropertyValue": [
             {
-                "Property": "∫Ï…´,11",
+                "Property": "Á∫¢Ëâ≤,11",
                 "Action": -1,
                 "Price": 111,
                 "VIPPrice": 12,
@@ -40,7 +40,7 @@
                 "ProductCode": "1111"
             },
             {
-                "Property": "∫Ï…´,12",
+                "Property": "Á∫¢Ëâ≤,12",
                 "Action": 0,
                 "Price": 111,
                 "VIPPrice": 12,
@@ -50,7 +50,7 @@
                 "ProductCode": "2222"
             },
             {
-                "Property": "¿∂…´,11",
+                "Property": "ËìùËâ≤,11",
                 "Action": 0,
                 "Price": 222,
                 "VIPPrice": 32,
@@ -60,7 +60,7 @@
                 "ProductCode": "3333"
             },
             {
-                "Property": "¿∂…´,12",
+                "Property": "ËìùËâ≤,12",
                 "Action": 0,
                 "Price": 211,
                 "VIPPrice": 12,

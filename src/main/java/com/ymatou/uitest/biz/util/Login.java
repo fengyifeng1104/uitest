@@ -16,7 +16,7 @@ public class Login {
 	
 	public static void loginSellerAsDefault(){
 		openBrowser();
-		if (!WebEleFatrory.FindWebButton("[��ȫ�˳�]").isExist()){
+		if (!WebEleFatrory.FindWebButton("[安全退出]").isExist()){
 			BrowserDriver.getWebDriver().get(EnvSetup.getEnvVal(ContantData.sellerLoginSite));
 			WebEleFatrory.GetWebEdit("loginName").set(EnvSetup.getEnvVal(ContantData.defaultLoginUser));
 			WebEleFatrory.GetWebEdit("loginPwd").set(EnvSetup.getEnvVal(ContantData.defaultLoginPswd));

@@ -19,14 +19,12 @@ public class ConfigUtil {
 			InputStream is = new FileInputStream(new File(System.getProperty("user.dir") +"/"+filepath));
 			prop.load(is);
 		}catch(Exception e){
-			System.err.println("Load Property ERROR��Property File Path:"+filepath);
+			System.err.println("Load Property ERROR Property File Path:"+filepath);
 			e.printStackTrace();
 		}
 	}
 	
 	/**
-	 * ��ȡ����ֵ
-	 * @param property ����key
 	 * @return value
 	 */
 	public String getProperty(String property){
@@ -34,7 +32,7 @@ public class ConfigUtil {
 		try{
 			value=prop.getProperty(property);
 		}catch(Exception e){
-			System.err.println("GET Property Value ERROR��Property Key:"+property);
+			System.err.println("GET Property Value ERROR Property Key:"+property);
 			e.printStackTrace();
 		}
 		return value;
@@ -52,7 +50,7 @@ public class ConfigUtil {
 		try{
 			prop.setProperty(key, value);
 		}catch(Exception e){
-			System.err.println("SET Property Value ERROR��Property Key:"+key+",Property value:"+value);
+			System.err.println("SET Property Value ERROR Property Key:"+key+",Property value:"+value);
 			e.printStackTrace();
 		}
 	}

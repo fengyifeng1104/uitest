@@ -5,6 +5,7 @@ import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.ymatou.uitest.biz.product.ProductBiz;
 import com.ymatou.uitest.biz.util.Login;
 import com.ymatou.uitest.util.FileUtil;
 
@@ -30,8 +31,8 @@ public class MainTest
 		
 		
 		
-		JSONObject aJsonObject = JSON.parseObject(FileUtil.readFile("E:\\fyf\\workspace2\\GUITest\\config\\jsonbeantpl\\AddNewProductTpl.json"));
- 		//ProductBiz.AddNewProduct(new JSONObject(map), aJsonObject);
+		JSONObject aJsonObject = JSON.parseObject(FileUtil.readFile(System.getProperty("user.dir")+"\\config\\jsonbeantpl\\AddNewProductTpl.json"));
+ 		ProductBiz.AddNewProduct(new JSONObject(map), aJsonObject);
 		
 	}
 	
