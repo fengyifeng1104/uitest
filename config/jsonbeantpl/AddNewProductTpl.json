@@ -1,0 +1,74 @@
+{
+    "ProductName": "aaaaaaa",
+    "MobileDescription": "bbbbbbbb",
+    "WordContent": "ccccccccccc",
+    "Limited": true,
+    "LimitNum": 2,
+    "NoticeRisk": 1,
+	"PicUrl":"D:\\1est.jpg",
+    "DeliveryType": [
+        "保税",
+        "第三方保税",
+        "广州保税区",
+        "1111"
+    ],
+    "AutoSale": true,
+    "OnSaleType": 1,
+    "OnSaleTime": "2016-10-31 14:24:22",
+    "NoReasonReturn": true,
+    "LocalReturn": 1,
+    "Catalogs": {
+        "Property": {
+            "颜色": [
+                "红色",
+                "蓝色"
+            ],
+            "尺寸": [
+                "11",
+                "12"
+            ]
+        },
+        "PropertyValue": [
+            {
+                "Property": "红色,11",
+                "Action": -1,
+                "Price": 111,
+                "VIPPrice": 12,
+                "NewCustomerPrice": 13,
+                "Num": 14,
+                "SKU": "111",
+                "ProductCode": "1111"
+            },
+            {
+                "Property": "红色,12",
+                "Action": 0,
+                "Price": 111,
+                "VIPPrice": 12,
+                "NewCustomerPrice": 13,
+                "Num": 14,
+                "SKU": "222",
+                "ProductCode": "2222"
+            },
+            {
+                "Property": "蓝色,11",
+                "Action": 0,
+                "Price": 222,
+                "VIPPrice": 32,
+                "NewCustomerPrice": 45,
+                "Num": 12,
+                "SKU": "333",
+                "ProductCode": "3333"
+            },
+            {
+                "Property": "蓝色,12",
+                "Action": 0,
+                "Price": 211,
+                "VIPPrice": 12,
+                "NewCustomerPrice": 13,
+                "Num": 14,
+                "SKU": "444",
+                "ProductCode": "4444"
+            }
+        ]
+    }
+}
