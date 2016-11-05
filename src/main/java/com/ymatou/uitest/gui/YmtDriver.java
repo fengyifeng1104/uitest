@@ -77,7 +77,8 @@ public class YmtDriver extends ChromeDriver{
 			return;
 		}
 
-	    Map<String, Object> rawCapabilities = (Map<String, Object>) response.getValue();
+	    @SuppressWarnings("unchecked")
+		Map<String, Object> rawCapabilities = (Map<String, Object>) response.getValue();
 	    DesiredCapabilities returnedCapabilities = (DesiredCapabilities) super.getCapabilities();
 	    if(returnedCapabilities == null){
 
