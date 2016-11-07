@@ -12,6 +12,7 @@ import com.ymatou.uitest.gui.WebEleFatrory;
 import com.ymatou.uitest.gui.containertype.WebTable;
 import com.ymatou.uitest.gui.inputtype.WebCheckBox;
 import com.ymatou.uitest.gui.inputtype.WebEdit;
+import com.ymatou.uitest.util.LoggerUtil;
 import com.ymatou.uitest.util.TimeUtil;
 
 public class ProductBiz {
@@ -23,7 +24,6 @@ public class ProductBiz {
 		//选择规格
 		selectCatagroryAndBrand(step1);
 	
-		
 		
 		
 		//编辑界面

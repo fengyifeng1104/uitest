@@ -1,6 +1,7 @@
 eclipse.preferences.version=1
 encoding//config/gui_name_parse/ProductBiz.properties=UTF-8
 encoding//config/jsonbeantpl=UTF-8
+encoding//config/log4j.properties=UTF-8
 encoding//src/main/java=UTF-8
 encoding//src/main/java/com/ymatou/uitest/biz/product/ProductBiz.java=UTF-8
 encoding//src/test/java=UTF-8

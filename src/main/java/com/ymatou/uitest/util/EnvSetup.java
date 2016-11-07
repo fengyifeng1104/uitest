@@ -1,5 +1,9 @@
 package com.ymatou.uitest.util;
 
+import java.io.File;
+
+import org.apache.log4j.PropertyConfigurator;
+
 import com.ymatou.uitest.util.constant.ContantData;
 
 public class EnvSetup {
@@ -10,9 +14,12 @@ public class EnvSetup {
 	private static ConfigUtil configUtil_deploy =  new ConfigUtil("config/test_env/deploy.properties");
 	private static String env = configUtil_deploy.getProperty("env").trim().toLowerCase();
 	
+	//init config env
 	static{
 		if (!SystemUtil.findProcess("chrome.exe")){SystemUtil.killProcess("chromedriver_x64.exe");}
-		System.setProperty("webdriver.chrome.driver", getDeployVal(ContantData.chromeExePath));
+		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+File.separator+getDeployVal(ContantData.chromeExePath));
+		PropertyConfigurator.configure(getDeployVal(ContantData.log4jConfigPath));
+		
 	}
 
 	

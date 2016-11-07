@@ -15,8 +15,8 @@ public class ConfigUtil {
 	 */
 	public ConfigUtil(String filepath) {
 		try{
-			fp=System.getProperty("user.dir") +"/"+filepath;
-			InputStream is = new FileInputStream(new File(System.getProperty("user.dir") +"/"+filepath));
+			fp=System.getProperty("user.dir") +File.separator+filepath;
+			InputStream is = new FileInputStream(new File(System.getProperty("user.dir") +File.separator+filepath));
 			prop.load(is);
 		}catch(Exception e){
 			System.err.println("Load Property ERROR Property File Path:"+filepath);

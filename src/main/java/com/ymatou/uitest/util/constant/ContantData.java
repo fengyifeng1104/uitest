@@ -13,5 +13,6 @@ public interface ContantData {
 	public String chromeExePath = "chrome_exePath";
 	public String chromeRemoteServer = "chrome_remoteServer";
 	public String chromeSessionId = "chrome_sessionId";
+	public String log4jConfigPath = "log4j_configPath";
 	
 }
