@@ -8,7 +8,12 @@ import org.openqa.selenium.Point;
 import org.openqa.selenium.SearchContext;
 import org.openqa.selenium.WebElement;
 
+import com.ymatou.uitest.util.LoggerUtil;
+
 public abstract class AbstractWebElement implements WebElement{
+	private final static LoggerUtil log = new LoggerUtil(AbstractWebElement.class);
+	
+	
 	protected String strMark;
 	 
 	protected WebElement webElement = null;
@@ -100,7 +105,8 @@ public abstract class AbstractWebElement implements WebElement{
 			
 			return elements;
 		 }catch(Exception e){
-			 System.out.println("falied to find "+this.getClass().getSimpleName()+" by ["+strMark+"]");
+			 log.error("falied to find "+this.getClass().getSimpleName()+" by ["+strMark+"]");
+			 log.error(e.getMessage());
 		 }
 		return null;
 	}

@@ -1,0 +1,20 @@
+2016-11-08 19:10:07 [com.ymatou.uitest.gui.AbstractWebElement ERROR] falied to find WebButton by [[安全退出]]
+2016-11-08 19:10:07 [com.ymatou.uitest.gui.AbstractWebElement ERROR] invalid element state: Failed to execute 'querySelectorAll' on 'Document': '.[安全退出]' is not a valid selector.
+  (Session info: chrome=41.0.2272.118)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'fengyifeng', ip: '172.16.21.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: com.ymatou.uitest.gui.YmtDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\FENGYI~1\AppData\Local\Temp\scoped_dir72628_20704}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=41.0.2272.118, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: aa151c49e34ac084ac7e64c8a8a70ea1
+2016-11-08 19:17:36 [com.ymatou.uitest.gui.AbstractWebElement ERROR] falied to find WebButton by [[安全退出]]
+2016-11-08 19:17:36 [com.ymatou.uitest.gui.AbstractWebElement ERROR] invalid element state: Failed to execute 'querySelectorAll' on 'Document': '.[安全退出]' is not a valid selector.
+  (Session info: chrome=41.0.2272.118)
+  (Driver info: chromedriver=2.9.248315,platform=Windows NT 6.1 SP1 x86_64) (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 12 milliseconds
+Build info: version: '2.42.2', revision: '6a6995d31c7c56c340d6f45a76976d43506cd6cc', time: '2014-06-03 10:52:47'
+System info: host: 'fengyifeng', ip: '172.16.21.148', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_92'
+Driver info: com.ymatou.uitest.gui.YmtDriver
+Capabilities [{applicationCacheEnabled=false, rotatable=false, chrome={userDataDir=C:\Users\FENGYI~1\AppData\Local\Temp\scoped_dir72628_20704}, takesHeapSnapshot=true, databaseEnabled=false, handlesAlerts=true, version=41.0.2272.118, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, locationContextEnabled=true, webStorageEnabled=true, browserName=chrome, takesScreenshot=true, javascriptEnabled=true, cssSelectorsEnabled=true}]
+Session ID: aa151c49e34ac084ac7e64c8a8a70ea1

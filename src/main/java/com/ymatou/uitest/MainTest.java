@@ -31,7 +31,6 @@ public class MainTest
 
 
 		
-		LoggerUtil.error("ddd");
 		
 		
 	//	JSONObject aJsonObject = JSON.parseObject(FileUtil.readFile(System.getProperty("user.dir")+"\\config\\jsonbeantpl\\AddNewProductTpl.json"));

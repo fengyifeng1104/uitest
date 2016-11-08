@@ -18,9 +18,11 @@ import org.openqa.selenium.remote.internal.WebElementToJsonConverter;
 import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Iterables;
 import com.google.common.collect.Lists;
+import com.ymatou.uitest.util.LoggerUtil;
 
 
 public class YmtDriver extends ChromeDriver{
+	private static LoggerUtil log = new LoggerUtil(YmtDriver.class);
 	
 	private Capabilities mycapabilities;
 	
@@ -71,9 +73,9 @@ public class YmtDriver extends ChromeDriver{
 		try {
 			response = super.getCommandExecutor().execute(command);
 		} catch (IOException e1) {
-			// TODO Auto-generated catch block
-			e1.printStackTrace();
-			System.out.println("Can't use this Session");
+			
+			log.error("Can't use this Session");
+			log.error(e1.getMessage());
 			return;
 		}
 
